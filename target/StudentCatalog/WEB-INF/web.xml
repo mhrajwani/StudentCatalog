@@ -2,7 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   <display-name>Sample Maven Web App</display-name>
   <welcome-file-list>
-    <welcome-file>/WEB-INF/index.jsp</welcome-file>
+    <welcome-file>/WEB-INF/welcome.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
     <servlet-name>Add</servlet-name>
@@ -45,5 +45,22 @@
   <servlet-mapping>
     <servlet-name>Search</servlet-name>
     <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>SearchStudentServlet</display-name>
+    <servlet-name>SearchStudentServlet</servlet-name>
+    <servlet-class>com.fdmgroup.controller.SearchStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchStudentServlet</servlet-name>
+    <url-pattern>/searchStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>WELCOME</servlet-name>
+    <jsp-file>/WEB-INF/welcome.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WELCOME</servlet-name>
+    <url-pattern>/welcome</url-pattern>
   </servlet-mapping>
 </web-app>

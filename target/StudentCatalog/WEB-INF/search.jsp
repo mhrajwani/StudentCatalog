@@ -37,7 +37,7 @@
           	<option value="ssn">SSN</option>
       	  </select>
       	  <label for="uname">Search for Student in Database</label>
-          <input type="text" id="search" name="search" placeholder="Input Field to Seach..." required>
+          <input type="text" id="search" name="search" placeholder="Input Field to Seach...">
           <input type="submit" value="Submit">
         </form>
       </div>

@@ -33,6 +33,7 @@
     <button class="button"><a href="add">Add Student</a></button>
     <button class="button"><a href="search">Search Student</a></button>
     <button class="button"><a href="displayStudent">Display All Student</a></button>
+    <button class="button"><a href="welcome">Back To Welcome Page</a></button>
 </div>
 
 </body>
