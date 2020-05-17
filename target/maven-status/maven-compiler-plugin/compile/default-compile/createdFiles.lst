@@ -1,5 +1,8 @@
+com\fdmgroup\controller\AddStudentServlet.class
+com\fdmgroup\controller\DisplayAllServlet.class
 com\fdmgroup\model\Professor.class
 Client.class
 com\fdmgroup\model\Student.class
+com\fdmgroup\controller\SearchStudentServlet.class
 com\fdmgroup\persistence\ProfessorDao.class
 com\fdmgroup\persistence\StudentDao.class
