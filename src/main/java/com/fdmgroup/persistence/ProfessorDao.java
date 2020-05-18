@@ -34,7 +34,7 @@ public class ProfessorDao {
 		query.setParameter("professorName", input);
 		List<Professor> returned = query.getResultList();
 
-		if (returned.size() == 1) {
+		if (returned.size() >= 1) {
 			Professor lastMatched = null;
 			for (Professor professor : returned) {
 				lastMatched = professor;

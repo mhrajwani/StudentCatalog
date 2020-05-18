@@ -17,11 +17,10 @@
         </div>
         <div id=headertitle>
             <h4>Student Catalog</h4>
-            <p>Student View</p>
         </div>
 
     </div>
-        <div class=navdiv>
+    <div class=navdiv>
         <a class=navbar href="home">Home</a>
         <a class=navbar href="add">Add Student</a>
         <a class=navbar href="search">Search Student</a>
@@ -58,9 +57,10 @@
     				</div>
 
     				<div class="flip-card-back">
-						<form action="deleteUserServlet" method ="post">
-						<input type ="hidden" value ="${s.studentID }" name="username">
-						<input type="submit" value="Delete User">
+    					<p>Only Professors Allowed to Delete</p>
+						<form action="deleteStudentServlet" method ="post">
+						<input type ="hidden" value ="${s.studentID }" name="id">
+						<input type="submit" value="Delete Student">
 						</form> 
     				</div>
   				</div>

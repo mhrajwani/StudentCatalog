@@ -17,7 +17,6 @@
         </div>
         <div id=headertitle>
             <h4>Student Catalog</h4>
-            <p>Student View</p>
         </div>
 
     </div>
@@ -28,7 +27,7 @@
         <a class=navbar href="displayStudent">Display All Student</a>
     </div>
 <div class="spacing">
-<h1>List Of All Users</h1>
+<h1>List Of All Student in the System</h1>
 
 <c:forEach var="s" items="${requestScope.students}">
 <div class="flip-card">
@@ -42,9 +41,10 @@
     </div>
 
     <div class="flip-card-back">
-	<form action="deleteUserServlet" method ="post">
-	<input type ="hidden" value ="${s.studentID }" name="username">
-	<input type="submit" value="Delete User">
+    <p>Only Professors Allowed to Delete</p>
+	<form action="deleteStudentServlet" method ="post">
+	<input type ="hidden" value ="${s.studentID }" name="id">
+	<input type="submit" value="Delete Student">
 	</form> 
     </div>
   </div>

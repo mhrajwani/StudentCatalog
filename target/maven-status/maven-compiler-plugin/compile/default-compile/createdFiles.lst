@@ -1,8 +1,13 @@
 com\fdmgroup\controller\AddStudentServlet.class
-com\fdmgroup\controller\DisplayAllServlet.class
-com\fdmgroup\model\Professor.class
 Client.class
+com\fdmgroup\controller\CheckFieldsNotEmpty.class
 com\fdmgroup\model\Student.class
 com\fdmgroup\controller\SearchStudentServlet.class
 com\fdmgroup\persistence\ProfessorDao.class
+com\fdmgroup\controller\DisplayAllServlet.class
+com\fdmgroup\model\Professor.class
+com\fdmgroup\controller\AddProfessorServlet.class
+com\fdmgroup\controller\DeleteStudentServlet.class
+com\fdmgroup\controller\LoginServlet.class
 com\fdmgroup\persistence\StudentDao.class
+com\fdmgroup\controller\LogoutServlet.class

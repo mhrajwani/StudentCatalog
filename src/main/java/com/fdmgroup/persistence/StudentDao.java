@@ -55,6 +55,15 @@ public class StudentDao {
 
 	}
 
+	public boolean delete(int id) {
+		Student student = em.find(Student.class, id);
+		em.getTransaction().begin();
+		em.remove(student);
+		em.getTransaction().commit();
+		return true;
+
+	}
+
 	public List<Student> readAll() {
 
 		Query query = em.createQuery("SELECT u FROM Student u", Student.class);

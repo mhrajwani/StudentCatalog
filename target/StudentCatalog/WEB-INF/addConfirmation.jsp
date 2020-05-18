@@ -17,7 +17,6 @@
         </div>
         <div id=headertitle>
             <h4>Student Catalog</h4>
-            <p>Student View</p>
         </div>
 
     </div>

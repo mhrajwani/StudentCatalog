@@ -24,8 +24,8 @@
 
 <div class=spacing>
     <h1>Welcome to Student Catalog</h1>
-    <button class="button"><a href="">Professor View</a></button>
     <button class="button"><a href="home">Student View</a></button>
+    <button class="button"><a href="login">Professor View</a></button>
 </div>
 
 </body>
