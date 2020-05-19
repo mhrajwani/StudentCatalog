@@ -65,10 +65,12 @@
 									Last Name:
 									<c:out value="${s.lastName}"></c:out>
 								</p>
+								<c:if test="${!empty sessionScope.prof}">
 								<p>
 									SSN:
 									<c:out value="${s.ssn}"></c:out>
 								</p>
+						</c:if>		
 								<p>
 									ID:
 									<c:out value="${s.studentID}"></c:out>

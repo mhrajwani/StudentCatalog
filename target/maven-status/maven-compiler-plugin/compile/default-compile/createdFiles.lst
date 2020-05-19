@@ -1,5 +1,4 @@
 com\fdmgroup\controller\AddStudentServlet.class
-Client.class
 com\fdmgroup\controller\CheckFieldsNotEmpty.class
 com\fdmgroup\model\Student.class
 com\fdmgroup\controller\SearchStudentServlet.class
